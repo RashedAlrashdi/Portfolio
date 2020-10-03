@@ -20,7 +20,7 @@
                 <li><a href="#section-1">Home</a></li>
                 <li><a href="#section-2">About</a></li>
                 <li><a href="#section-3">Projects</a></li>
-                <li><a href="#section-4">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="sandwich">
                 <div class="line1"></div>
@@ -117,42 +117,33 @@
           <!-- End of Section 3 -->
 
 
+                  <!--you can put this line anywhere in the site-->
+                  <footer id="contact">
+                    <section class="section-4">
+                  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
+                  <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                      <label for="firstname">First name</label>
+                      <input type="text" name="firstname" id="firstname"/>
+                    </p>
+                    <p>
+                      <label for="firstname">Email</label>
+                      <input type="text" name="email" id="email"/>
+                    </p>
+                    
+                    <!--make sure you copy this key as is-->
+                    <p>
+                      <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <div data-netlify-recaptcha="true"></div>
+                    <p>
+                      <button type="submit">Send</button>
+                    </p>
+                  </form>
+                  </section>
+                  </footer>
 
-          <!-- Footer -->
-
-          <footer class="section-4" id="section-4">
-            
-            <form name="contact" method="POST" data-netlify="true">
-              <p>
-                <label>Your Name: <input type="text" name="name" /></label>   
-              </p>
-              <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-              </p>
-              <p>
-                <label>Message: <textarea name="message"></textarea></label>
-              </p>
-              <div data-netlify-recaptcha="true"></div>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form>
-              <a href="https://github.com/RashedAlrashdi" class="social-media-link" target="_blank">
-                <i class="fab fa-github-square"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/rashed-alrashdi-57471019a" class="social-media-link" target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <p class="copyright">
-                Copyright &copy; ShoroqComputer
-              </p>
-              
-            
-          
-          </footer>
-          
-          <!-- End of Footer -->
           <script src="js/script.js"></script>
 
 </body>

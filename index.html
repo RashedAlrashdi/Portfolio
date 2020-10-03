@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <title>My Portfolio</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+        <div class="logo">
+            <h4>B F R</h4>
+        </div>
+            <ul class="navings">
+                <li><a href="#section-1">Home</a></li>
+                <li><a href="#section-2">About</a></li>
+                <li><a href="#section-3">Projects</a></li>
+                <li><a href="#section-4">Contact</a></li>
+            </ul>
+            <div class="sandwich">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+    </nav>
+  </header>
+  <!-- End of Header -->
+
+
+  
+
+  <!-- Section 1 -->
+  <section class="section-1" id="section-1">
+    <h1 class="section-1-heading">
+      Web Developer
+    </h1>
+  </section>
+  <!-- End of Section 1 -->
+
+
+  
+
+
+  
+
+    <!-- Section 2 -->
+	<section class="section-2" id="section-2">
+        <img src="images/myPic.jpeg" alt="person-name" class="person-img" />
+        <h3 class="person-name">Rashed Alrashdi</h3>
+
+        <div class="container">
+          <h1>Skill Set</h1>
+          <div class="bar learning" data-skill="Javascript"></div>
+          <div class="bar back basic" data-skill="Python"></div>
+          <div class="bar back intermediate" data-skill="C#"></div>
+          <div class="bar front advanced" data-skill="CSS3"></div>
+          <div class="bar front expert" data-skill="HTML5"></div>
+      
+        </div>
+     
+    </section>
+    <!-- End of Section 2 -->
+
+
+
+
+          <!-- Section 3 -->
+          <section class="section-3" id="section-3">
+            <h1 class="section-heading">My Projects</h1>
+            <div class="projects-wrapper">
+              <div class="project">
+                <div class="project-text">
+                  <h2 class="project-name">Assistance System</h2>
+                  <h4 class="project-technologies">Python / Kivy / Raspberry Pi</h4>
+                </div>
+                <img src="images/appKivy.JPG" class="project-img" />
+                <a
+                  href="https://p-kivy.netlify.app"
+                  class="project-link"
+                  target="_blank"
+                  >Go to Video</a
+                >
+              </div>
+              <div class="project">
+                <div class="project-text">
+                  <h2 class="project-name">Motion Detection System</h2>
+                  <h4 class="project-technologies">Python / Motion Sensor / Raspberry Pi</h4>
+                </div>
+                <img src="images/deteMo.PNG" class="project-img" />
+                <a
+                  href="https://motion-detection-system.netlify.app"
+                  class="project-link"
+                  target="_blank"
+                  >Go to Video</a
+                >
+              </div>
+              <div class="project">
+                <div class="project-text">
+                  <h2 class="project-name">Recipes</h2>
+                  <h4 class="project-technologies">HTML / CSS </h4>
+                </div>
+                <img src="images/milk.PNG" class="project-img" />
+                <a
+                  href="https://restaurantrecipes.netlify.app"
+                  class="project-link"
+                  target="_blank"
+                  >Go to Video</a
+                >
+              </div>
+            </div>
+          </section>
+          <!-- End of Section 3 -->
+
+
+
+
+          <!-- Footer -->
+
+          <footer class="section-4" id="section-4">
+            
+            <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label>Your Name: <input type="text" name="name" /></label>   
+              </p>
+              <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>Message: <textarea name="message"></textarea></label>
+              </p>
+              <div data-netlify-recaptcha="true"></div>
+              <p>
+                <button type="submit">Send</button>
+              </p>
+            </form>
+              <a href="https://github.com/RashedAlrashdi" class="social-media-link" target="_blank">
+                <i class="fab fa-github-square"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/rashed-alrashdi-57471019a" class="social-media-link" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <p class="copyright">
+                Copyright &copy; ShoroqComputer
+              </p>
+              
+            
+          
+          </footer>
+          
+          <!-- End of Footer -->
+          <script src="js/script.js"></script>
+
+</body>
+</html>

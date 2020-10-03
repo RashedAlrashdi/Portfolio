@@ -323,15 +323,15 @@ label{
 }
 button{
   text-align: center;
+  align-items: center;
   font-size: 2rem;
   font-weight: 300;
   color: #fff;
   padding: 0 3rem;
-  margin-bottom: 2rem;
-  margin-top: -5rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
   text-shadow: 0.2rem 0.2rem 1rem #555;
+  margin-left: 24rem;
 }
 .copyright{
   text-align: center;

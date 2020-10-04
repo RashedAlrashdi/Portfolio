@@ -219,7 +219,8 @@ background: #222;
   margin-top: -5rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
-
+  border-bottom: 0.3rem solid #222;
+  border-top: 0.3rem solid #222;
 }
 
 .projects-wrapper {

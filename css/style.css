@@ -172,7 +172,7 @@ background: #222;
 }
 
 .bar.front::before{
-  background-color: #ffcc33;
+  background-color: #ffcf3d;
 }
 .bar.back::before{
   background-color: #a6cfe3;

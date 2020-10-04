@@ -219,8 +219,7 @@ background: #222;
   margin-top: -5rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
-  border-bottom: 0.3rem solid #222;
-  border-top: 0.3rem solid #222;
+
 }
 
 .projects-wrapper {
@@ -459,13 +458,13 @@ input[type=submit] {
   height: 20rem;
   object-fit: cover;
   border-radius: 10%;
-  background-color: #aaa;
+  background-color: cornsilk;
   padding: 0.2rem;
   margin-left: 5rem;
 }
 .person-name{
     font-size: 2rem;
-    color: #aaa;
+    color: cornsilk;
     margin-left: 5rem;
     padding: 0.5rem 3rem;
     letter-spacing: 0.3rem;

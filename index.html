@@ -123,16 +123,16 @@
                         <form name="contact" method="POST" data-netlify="true">
                           <p>
                             <label for="firstname">First name:</label>
-                            <input type="text" name="firstname" id="firstname"/>
+                            <input type="text" name="firstname" id="firstname" required />
                           </p>
                           <p>
                             <label for="firstname">Email:</label>
-                            <input type="text" name="email" id="email"/>
+                            <input type="text" name="email" id="email" required />
                           </p>
                           <p>
-                            <label>Message: <textarea name="message"></textarea></label>
+                            <label>Message: <textarea name="message" required></textarea></label>
                           </p>
-                          <div data-netlify-recaptcha="true"></div>
+                          <div data-netlify-recaptcha="true" required></div>
                           <p>
                             <button type="submit">Send</button>
                           </p>

@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script>
+      window.onload = function() {
+    var $recaptcha = document.querySelector('#recaptcha');
+
+    if($recaptcha) {
+        $recaptcha.setAttribute("required", "required");
+    }
+};
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
     <title>My Portfolio</title>
@@ -127,7 +136,8 @@
                           <p>
                             <label>Message: <textarea name="message" required></textarea></label>
                           </p>
-                          <div data-netlify-recaptcha="true"></div>
+                          <div id="recaptcha" data-netlify-recaptcha="true"></div>
+
                           <p>
                             <button type="submit">Send</button>
                           </p>
